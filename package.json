@@ -1,0 +1,9 @@
+{
+  "name": "raphael",
+  "version": "1.0.0",
+  "author": "Sharon Washington <sharon2@sharay.com> (http://sharay.com)",
+    "license": "ISC",
+    "devDependencies": {
+      "pleeease-cli": "^4.0.0"
+    }
+}
