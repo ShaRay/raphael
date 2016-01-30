@@ -2,12 +2,29 @@
   background-image: url(../img/header-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 538px;
 }
 
 .caption {
   color: $white;
-  position: absolute;
-  right: 75px;
-  top: 175px;
+  position: relative;;
+  line-height: 435px;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 35px;
+}
+
+.line {
+  background-color: $white;
+  border: none;
+  height: 1px;
+  margin-top: -200px;
+  width: 55%;
+}
+
+.sub-caption {
+  color: $white;
+  text-align: center;
 }
