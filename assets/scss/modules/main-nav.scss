@@ -1,0 +1,33 @@
+.main-nav {
+  float: right;
+}
+
+
+.list-item {
+  display: inline-block;
+}
+
+.link-item {
+  color: $white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  list-style: none;
+  margin-left: 38px;
+  text-decoration: none;
+}
+
+.current,
+.link-item {
+    border-bottom: 1px solid transparent;
+    color: $white;
+    display: inline-block;
+    padding: -0.125rem .0625rem 1.25rem;
+    text-decoration: none;
+    transition: all 240ms ease-out;
+  }
+
+  a:hover,
+  a.current {
+    color: $puerto-rico;
+    border-color: $white;
+  }

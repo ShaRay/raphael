@@ -1,0 +1,13 @@
+.main-header {
+  background-image: url(../img/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.caption {
+  color: $white;
+  position: absolute;
+  right: 75px;
+  top: 175px;
+}
