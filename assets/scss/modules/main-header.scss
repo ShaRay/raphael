@@ -18,7 +18,13 @@
 
 .line {
   background-color: $white;
+  border: none;
   height: 1px;
   margin-top: -200px;
   width: 55%;
+}
+
+.sub-caption {
+  color: $white;
+  text-align: center;
 }
