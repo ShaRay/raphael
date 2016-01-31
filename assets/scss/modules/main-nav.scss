@@ -28,8 +28,8 @@
     transition: all 120ms ease-out;
   }
 
-  a:hover,
-  a.current {
+  .link-item:hover,
+  .current {
     color: $puerto-rico;
     border-color: $white;
   }

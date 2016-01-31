@@ -18,6 +18,16 @@
   margin-top: 35px;
 }
 
+.logo-link {
+  color: $white;
+  text-decoration: none;
+  list-style: none;
+  
+    :hover {
+      color: $white;
+    }
+}
+
 .line {
   background-color: $white;
   border: none;
