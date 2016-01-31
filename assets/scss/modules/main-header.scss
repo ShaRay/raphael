@@ -3,12 +3,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 538px;
+  padding-bottom: 200px;
 }
 
 .caption {
   color: $white;
-  position: relative;;
-  line-height: 435px;
+  position: relative;
+  top: 261px;
+  right: -119px;
   text-align: center;
 }
 
@@ -20,11 +22,16 @@
   background-color: $white;
   border: none;
   height: 1px;
-  margin-top: -200px;
+  top: 418px;
+  right: 209px;
+  position: absolute;
   width: 55%;
 }
 
 .sub-caption {
   color: $white;
+  position: relative;
   text-align: center;
+  top: 236px;
+  right: -99px;
 }
