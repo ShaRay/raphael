@@ -1,6 +1,6 @@
 .introduction {
   background-color: $white;
-  min-height: 822px;
+  min-height: 500px;
 }
 
 .name {
@@ -21,4 +21,14 @@
   margin-left: 373px;
   margin-top: -66px;
   width: 750px;
+}
+
+.sketching,
+.design,
+.finalize {
+  color: $puerto-rico;
+}
+
+.work {
+  color: $gull-grey;
 }
