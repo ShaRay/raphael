@@ -31,4 +31,20 @@
 
 .work {
   color: $gull-grey;
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+  width: 300px;
+}
+
+.sketching {
+  margin-left: -200px;
+}
+
+.design {
+  margin-left: 200px;
+}
+
+.finalize {
+  float: right;
+  margin-right: -200px;
 }
