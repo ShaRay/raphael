@@ -1,0 +1,56 @@
+.introduction {
+  background-color: $white;
+  min-height: 500px;
+}
+
+.name {
+  color: $puerto-rico;
+  font-size: 36px;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 250px;
+  text-align: center;
+}
+
+.intro {
+  color: $gull-grey;
+  text-align: center;
+  font-size: 18px;
+}
+
+.intro-container {
+  margin-left: 373px;
+  margin-top: -66px;
+  width: 750px;
+  height: 350px;
+}
+
+.sketching,
+.design,
+.finalize {
+  color: $puerto-rico;
+}
+
+.work {
+  color: $gull-grey;
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+  width: 300px;
+}
+
+.sketching {
+  margin-left: -144px;
+}
+
+.design {
+  margin-left: 122px;
+}
+
+.finalize {
+  float: right;
+  margin-right: -107px;
+}
+
+.line-container {
+  margin-left: 208px;
+  width: 1080px;
+}

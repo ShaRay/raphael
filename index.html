@@ -1,35 +1,76 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Raphael</title>
-  <link href="https://fonts.googleapis.com/css?family=Rokkitt|Quicksand|PT+Sans+Narrow|PT+Sans:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Rokkitt|Quicksand|PT+Sans+Narrow|PT+Sans:700|PT+Sans" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="dist/css/application.css">
 </head>
 <body>
   <header class="main-header">
     <div class="container clearfix">
       <div class="col col-5">
-          <h1 class="logo">logo</h1>
-        </div>
-          <div class="col col-7">
-          <nav class="main-nav">
-            <ul class="list-reset">
-              <li class="list-item t1"><a class="current link-item" href="#">Start</a></li>
-              <li class="list-item t1"><a class="link-item" href="#">About Me</a></li>
-              <li class="list-item t1"><a class="link-item" href="#">Work</a></li>
-              <li class="list-item t1"><a class="link-item" href="#">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div>
-          <h2 class="caption">May I introduce myself?</h2>
-          <hr class="line">
-          <p class="sub-caption">Frontend Design | UI/UX Design</p>
-        </div>
+        <h1 class="logo caps"><a class="logo-link" href="#">logo</a></h1>
       </div>
+      <div class="col col-7">
+        <nav class="main-nav">
+          <ul class="list-reset">
+            <li class="list-item t1 caps"><a class="current link-item" href="#">Start</a></li>
+            <li class="list-item t1 caps"><a class="link-item" href="#">About Me</a></li>
+            <li class="list-item t1 caps"><a class="link-item" href="#">Work</a></li>
+            <li class="list-item t1 caps"><a class="link-item" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h2 class="caption">May I introduce myself?</h2>
+        <hr class="line">
+        <p class="sub-caption">Frontend Design | UI/UX Design</p>
+      </div>
+    </div>
   </header>
-</body>
+  <section class="introduction">
+    <div class="container clearfix">
+    </div>
+    <div col col-6>
+      <h2 class="name caps">Raphael Lechner</h2>
+      <p class="intro intro-container">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+        takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    </div>
+  </section>
 
+    <section class="intro-container">
+        <div class="sketching col col-4 block">
+          <div class="center"><img  src="dist/img/sketching-icon.png" alt="Sketching" /></div>
+            <h3 class="center">Sketching is Fun</h3>
+              <p class="work block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+        </div>
+        <div class="design col col-4 block">
+          <div class="center"><img src="dist/img/design-icon.png" alt="Design" /></div>
+            <h3 class="center">Design afterwords</h3>
+              <p class="work block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+          </div>
+          <div class="finalize col col-4 block">
+            <div class="center"><img src="dist/img/finalize-icon.png" alt="finalize" /></div>
+              <h3 class="center">Finalize</h3>
+                <p class="work">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+              </div>
+    </section>
+
+    <section class="line-container"><hr></section>
+
+    <section class="portfolio-container">
+      <div class="col col-6">
+        <div class="portfolio-images-1"><img src="dist/img/ocean-img1.jpg" alt="Ocean" /></div>
+        <div class="portfolio-images-3"><img src="dist/img/huts-img3.jpg" alt="Huts" /></div>
+      </div>
+      <div class="col col-6">
+        <div class="portfolio-images-2"><img src="dist/img/beach-img2.jpg" alt="Beach" /></div>
+        <div class="portfolio-images-4"><img src="dist/img/tree-img4.jpg" alt="Tree" /></div>
+      </div>
+
+    </section>
+</body>
 </html>
