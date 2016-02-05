@@ -33,10 +33,10 @@
   background-color: $white;
   border: none;
   height: 1px;
-  top: 418px;
-  right: 300px;
-  position: absolute;
-  width: 55%;
+  top: 230px;
+  right: -22px;
+  position: relative;
+  width: 80%;
 }
 
 .sub-caption {
@@ -45,4 +45,21 @@
   text-align: center;
   top: 236px;
   right: -26px;
+}
+
+.go-ahead {
+  border: 1px solid $puerto-rico;
+  background-color: $puerto-rico;
+  color: $white;
+  cursor: pointer;
+  font-family: 'Rokkitt', serif;
+  height: 56px;
+  outline: $burmuda solid thick;
+  position: relative;
+  top: -16px;
+  left: 600px;
+  outline-width: 10px;
+  text-align: center;
+  font-size: 24.1px;
+  width: 217px;
 }
