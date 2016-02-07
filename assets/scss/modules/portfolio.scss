@@ -1,26 +1,81 @@
-.portfolio-container {
-  height: 937px;
+.portfolio {
+  min-height: 930px;
 }
 
-
-.portfolio-images-1,
-.portfolio-images-3 {
-  background-color: $petite-orchid;
-  margin-left: 223px;
-  width: 400px;
-  height: 303px
+.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.portfolio-images-1,
-.portfolio-images-2 {
-  margin-top: 75px;
-  margin-bottom: 50px;
+.misc-image {
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+  position: relative;
 }
 
-.portfolio-images-2,
-.portfolio-images-4 {
-  background-color: $petite-orchid;
-  margin-left: 130px;
-  height: 303px;
-  width: 400px;
+.img-list-l {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 250px;
+  position: relative;
+}
+
+.img-list-r {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 106px;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  font-family: 'Rokkitt', serif;
+  font-size: 30px;
+  background-color: $puerto-rico;
+  width: 391px;
+  left: 0px;
+  bottom: 7px;
+  padding-left: 10px;
+  height: 90px;
+  color: $white;
+}
+
+.content2 {
+  color: $genoa;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  margin-top: -15px;
+}
+
+.more {
+  border: 1px solid $puerto-rico;
+  background-color: $puerto-rico;
+  cursor: pointer;
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  height: 56px;
+  padding-left: 20px;
+  position: relative;;
+  top: 65px;
+  left: 600px;
+  outline-width: 10px;
+  text-align: left;
+  font-size: 28px;
+  width: 217px;
+}
+
+.more-link {
+  color: $white;
+  text-decoration: none;
+}
+
+.arrow {
+  cursor: pointer;
+  position: relative;
+  background-color: $puerto-rico;
+  top: 68px;
+  left: 800px;
+  z-index: 1;
 }
