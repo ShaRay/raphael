@@ -7,7 +7,7 @@
   color: $white;
   font-family: 'Rokkitt', serif;
   font-size: 24.24px;
-  margin-left: 50px;
+  margin-left: 80px;
   margin-top: 125px;
 }
 
@@ -17,4 +17,39 @@
   font-size: 24.24px;
   margin-left: 175px;
   margin-top: 125px;
+}
+
+.social-icons {
+  display: inline-block;
+  position: relative;
+}
+
+.twitter {
+  background: $white;
+  border: 5px solid;
+  color: $puerto-rico;
+  padding: 22px;
+  position: absolute;
+  top: -39px;
+  left: -300px;
+}
+
+.dribbble {
+  background: $white;
+  border: 5px solid;
+  color: $puerto-rico;
+  padding: 22px;
+  position: absolute;
+  top: -39px;
+  left: 188px;
+}
+
+.facebook {
+  background: $white;
+  border: 5px solid;
+  color: $puerto-rico;
+  padding: 22px 30px 22px  30px;
+  position: absolute;
+  top: -39px;
+  left: 561px;
 }
